@@ -1,0 +1,164 @@
+@font-face {
+	font-family: 'Office Code Pro', serif;
+	src: url(https://github.com/nathco/Office-Code-Pro/tree/master/Fonts/Office%20Code%20Pro/TTF);
+}
+
+@import url(https://fonts.googleapis.com/css?family=Nixie+One);
+
+body {
+	background-color: #282828;
+}
+
+#background {
+	width: 100%;
+	left: 0px;
+	top: 0px;
+	z-index: -1;
+	background-color: #282828;
+	/*background: -moz-linear-gradient(left, rgba(108,156,185,1) 0%, rgba(225,147,113,1) 50%, rgba(219,167,47,1) 100%);
+	background: -webkit-linear-gradient(left, rgba(108,156,185,1) 0%, rgba(225,147,113,1) 50%, rgba(219,167,47,1) 100%);
+	background: -o-linear-gradient(left, rgba(108,156,185,1) 0%, rgba(225,147,113,1) 50%, rgba(219,167,47,1) 100%);
+	background: -ms-linear-gradient(left, rgba(108,156,185,1) 0%, rgba(225,147,113,1) 50%, rgba(219,167,47,1) 100%); 
+	background: -webkit-animation: AnimationName 30s ease infinite;
+    background:-moz-animation: AnimationName 30s ease infinite;
+    background: animation: AnimationName 30s ease infinite;
+
+    background: -webkit-keyframes AnimationName {
+    	0%{background-position:0% 50%}
+    	50%{background-position:100% 50%}
+    	100%{background-position:0% 50%}
+}
+	background: -moz-keyframes AnimationName {
+    	0%{background-position:0% 50%}
+    	50%{background-position:100% 50%}
+    	100%{background-position:0% 50%}
+}
+	background: keyframes AnimationName { 
+    	0%{background-position:0% 50%}
+    	50%{background-position:100% 50%}
+    	100%{background-position:0% 50%}
+}
+*/
+}
+
+html{
+	height: 100%;
+	width: 100%;
+	overflow: scroll;
+}
+
+body{
+	height: 100%;
+	padding: 0;
+	overflow: auto;
+	margin: 0;
+	-webkit-overflow-scrolling: touch;
+}
+
+#content {
+	position: relative;
+	background-color: ;
+	margin-left: 20%;
+	margin-right: 40%;
+	margin-top: 50px;
+}
+
+#logo {
+	margin-left: -25%;
+	margin-top: 25px;
+	margin-bottom: 50px;
+}
+
+
+.h1, .h2, .h3, .h4, .h5{
+	color: #EF8C7B;
+}
+
+.h1, .h2{
+	font-family: ‘Office Code Pro’, monospace; 
+	font-weight: medium;
+}
+
+.h3, .h4, .h5{
+	font-family: 'Nixie One', monospace;
+}
+
+.h1 {
+	font-weight: medium; 
+	font-style: italic;
+	font-size: 24px;
+	line-height: 32px;
+	margin-bottom: 20px;
+}
+
+.h2 {
+	font-weight: medium; 
+	font-size: 18px;
+	line-height: 21px;
+}
+
+.h3 {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.h4 {
+	font-size: 16px;
+	line-height: 22px;
+}
+
+.h5 {
+	font-size: 10px;
+	line-height: 16px;
+}
+
+
+.h3 a{
+	width: 25%;
+	float: left;
+	display:block;
+}
+
+#info, #practicioners, #works, #in-progress {
+	margin-top: 25px;
+}
+
+
+#works{
+	display: block;
+	float: left;
+}
+
+#in-progress{
+	float: left;
+}
+
+#prog-2{
+	margin-top: 25px;
+}
+
+.end {
+	margin-bottom: 100px;
+}
+
+.hero-image{
+	position: relative;
+	padding-bottom:56.25%;
+	height:0;
+	overflow: hidden;
+}
+
+a{
+	color: #EF8C7B;
+	text-decoration: none;
+}
+
+a:active, a:visited, a:focus {
+	color: #EF8C7B;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000;
+	text-decoration: none;
+}

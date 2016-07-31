@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <meta name="viewport" content="initial-scale=1">
+        <style>
+            .masthead {
+                position: relative;
+                height: 56vh;
+                width: 100vw;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-image:
+                    url(https://placeholdit.imgix.net/~text?txtsize=33&txt=480x320&w=480&h=320);
+            }
+
+            @media screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 1) { 
+                .masthead {
+                    background-image:
+                        url(https://placeholdit.imgix.net/~text?txtsize=33&txt=960x640&w=960&h=640);
+                }
+            }
+
+            .call-to-action {
+                bottom: 0;
+                right: 0;
+                width: 30%;
+                position:absolute;
+                padding: 50px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="masthead">
+            <div class='call-to-action'>
+                <h1>Call to Action</h1>
+                <p>Because, everybody puts shit over their hero image.</p>
+            </div>
+        </div>
+    </body>
+</html>

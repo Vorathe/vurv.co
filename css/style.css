@@ -1,0 +1,21 @@
+#background {
+	width: 1600px;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	z-index: -1;
+}
+
+#content {
+	position: relative;
+	margin: -10px;
+	background-color: ;
+}
+
+.header {
+	font-size: 24px;
+}
+
+p {
+	font-size: 12px;
+}
